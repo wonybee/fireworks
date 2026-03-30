@@ -232,7 +232,7 @@ class Particle {
 
     } else if (this.ptype === 'spark') {
       // 짧은 선 — 불꽃 튀기는 느낌
-      fwCtx.lineWidth = r * 0.9;
+      fwCtx.lineWidth = r * 0.8;
       fwCtx.lineCap   = 'round';
       fwCtx.beginPath();
       fwCtx.moveTo(px - Math.cos(this.sparkAngle) * this.sparkLen * 0.3,
